@@ -22,3 +22,17 @@
   flex-basis: 60%;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .main_container {
+    flex-direction: column; /* Switch back to row layout for larger screens */
+  }
+
+  .user_input_container {
+    flex-basis: 40%;
+  }
+
+  .expenses {
+    flex-basis: 60%;
+  }
+}
