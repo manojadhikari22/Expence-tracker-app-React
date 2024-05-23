@@ -1,8 +1,27 @@
-# React + Vite
+Overview:
+The Expense Tracker App is a simple web application built with React. It allows users to manage their expenses by adding, viewing, and deleting expense records. This project aims to provide hands-on experience with React and reinforce understanding of its fundamental concepts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+Add new expenses with details such as title, amount, date, and category.
+Delete existing expenses.
+Display a list of all registered expenses.
+Form validation to ensure title, amount, and date are provided.
+Automatic assignment of a dash (-) for category if none is selected.
+Display the total amount of all registered expenses.
+Persist expenses in a simple state for the duration of the session.
 
-Currently, two official plugins are available:
+Requirements:
+React: The project is built using the React library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployment:
+The project can be deployed on platforms like Netlify or Firebase. Follow the respective platform's deployment guides for React applications.
+
+Usage:
+Add Expense: Fill in the expense title, amount, and date. Optionally, select a category. Click "Add Expense" to add the expense to the list.
+Delete Expense: Click the delete button next to an expense to remove it from the list.
+
+License:
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+

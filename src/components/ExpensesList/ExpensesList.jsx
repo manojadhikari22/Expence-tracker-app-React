@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+
 import styles from './ExpensesList.module.css';
 
 const ExpensesList = ({ expenses, handleDelete, totalAmount }) => {
